@@ -1,14 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;900&display=swap');
+
 body {
+   background-image: url(arq/vienna-reyes-qCrKTET_09o-unsplash.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #203b00;
 }
 
 main#container {
+    background-image: linear-gradient(45deg, #88ff00, #71b128 40%);
+    border: 3px solid #203b00;
+    box-shadow: 0 0 100px black;
 }
 
 h1.titulo {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #203b00;
+    text-shadow: 2px 1px #88ff00
 }
 
 p.frase {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+    font-style: italic;    
+    color: aliceblue;
 }
 
 p.autor {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: #203b00;
 }
